@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+    <script src="js/TagCloud.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+<!-- FontAwesome v6.6.6 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Abdullah Al Galib</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar down">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/icon.png" alt="Shakib logo"
+          /></a>
+        </div>
+        <ul class="links">
+          <li class="link-item"><a class="link" href="#home">Home</a></li>
+          <li class="link-item">
+            <a class="link a-link" href="#about">About</a>
+          </li>
+          <li class="link-item">
+            <a class="link" href="#skills">Skills</a>
+          </li>
+          <li class="link-item">
+            <a class="link" href="#projects">Projects</a>
+          </li>
+          <li class="link-item">
+            <a class="link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <div class="hero container" id="home">
+        <div class="hero-left left">
+          <p class="hello">Hello there, my name is</p>
+          <h1 class="main-headline">
+            <span class="full-name"></span> <br />
+            <span id="app"></span>
+          </h1>
+          <p>
+            Software Quality Assurance Engineer. Proven ability to find and fix bugs, improve code quality, and test software for compliance. Expertise in a variety of testing methodologies, including unit testing, integration testing, and system testing. Strong analytical and problem-solving skills.
+          </p>
+          <a href="#about" class="abt-link">
+            <button class="cta">
+              <span>Learn more</span>
+              <svg viewBox="0 0 13 10" height="10px" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </a>
+        </div>
+        <div class="hero-right right">
+          <img
+            src="images/hero.png"
+            alt="Illustration of a developer, working on his laptop"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- About -->
+      <section id="about" class="section">
+        <h2 class="section-title down">About me</h2>
+        <div class="about container">
+          <div class="about-left left">
+            <img
+              src="images/about.png"
+              alt="Illustration of a developer, working on his desktop"
+            />
+          </div>
+          <div class="about-right right">
+            <p>
+              I am Abdullah Al Galib, a Software Quality Assurance Engineer with a passion for making software better. I have a proven track record of finding and fixing bugs, improving code quality, and testing software for compliance. I am proficient in a variety of testing methodologies, including unit testing, integration testing, and system testing. I am also a strong analytical and problem-solving thinker.
+              <br />
+              <br />
+              I am excited to join a team where I can use my skills and experience to help make software that is reliable, secure, and user-friendly. I am also passionate about learning new things, and I am always looking for ways to improve my skills.
+            </p>
+            <a
+              href="cv.pdf"
+              target="_blank"
+            >
+              <button class="cta">
+                <span>Download resume</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2 class="section-title down">My skills</h2>
+        <div class="content right"></div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2 class="section-title down">Projects</h2>
+        <div class="projects container down"></div>
+        
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h2 class="section-title down">Contact</h2>
+        <div class="contact container">
+          <div class="contact-left left">
+            <form action="https://formspree.io/f/xwkdleqr" method="POST">
+            <div class="input-group">
+              <label class="label" for="first-name" >First name</label>
+              <input
+                class="input"
+                type="text"
+                id="first-name"
+                placeholder="John"
+                required name="first-name"
+              />
+            </div>
+            <div class="input-group">
+              <label class="label" for="last-name" >Last name</label>
+              <input
+                class="input"
+                type="text"
+                id="last-name"
+                placeholder="Doe"
+                required name="last-name"
+              />
+            </div>
+            <div class="input-group">
+              <label class="label" for="email" >Email address</label>
+              <input
+                id="email"
+                class="input"
+                type="email"
+                placeholder="abcd@example.com"
+                required name="email"
+              />
+            </div>
+            <div class="input-group">
+              <label class="label" for="message">Message</label>
+              <textarea
+                id="message"
+                cols="30"
+                rows="5"
+                class="text-area"
+                placeholder="Write your message..."
+                required
+                name="message"
+              ></textarea>
+            </div>
+              <button type="submit" class="cta">
+                <span>Submit</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+        </form>
+
+
+          </div>
+          <div class="contact-right right">
+            <img
+              src="images/contact.png"
+              alt="Illustration of a developer, doing some codes"
+            />
+
+          </div>
+            <div class="icontainer">
+              Social Media: <a style="color: #fff;" href="https://facebook.com/abdullahal.galib.1044" target="_blank" role="button" title="facebook">
+                <i class="fab fa-facebook-f fa-lg ifb"></i>
+              </a>
+            <!-- Instagram -->
+              <a style="color: #fff;" href="https://instagram.com/galib6746/" target="_blank" role="button">
+                <i class="fab fa-instagram fa-lg iinsta"></i>
+              </a>
+            </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="down">
+      <p>
+        Designed & Built by <a href="https://facebook.com/abdullahal.galib.1044" target="_blank">Abdullah Al Galib</a>
+      </p>
+    </footer>
+  </body>
+</html>
